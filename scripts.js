@@ -130,6 +130,10 @@ function submitWord() {
   scoreDisplay.textContent = score;
   feedback.textContent = "Nice!";
   input.value = "";
+
+  input.value = "";
+  input.focus();
+
 }
 
 // 🚀 STEP 6: Load everything on page load
@@ -137,3 +141,27 @@ window.onload = async () => {
   await loadDictionary();
   loadNewWord();
 };
+
+
+// Allow the enter key to work in place of clicking submit
+document.getElementById("word-input").addEventListener("keydown", function(e) {
+  if (e.key === "Enter") {
+    submitWord();
+  }
+});
+
+function revealAnswers() {
+  const missed = currentWord.validSubwords.filter(word => !foundWords.includes(word));
+  const list = document.getElementById("word-list");
+
+  missed.forEach(word => {
+    const li = document.createElement("li");
+    li.textContent = word;
+    li.style.color = "gray";
+    li.style.fontStyle = "italic";
+    list.appendChild(li);
+  });
+
+  document.getElementById("feedback").textContent = "All words revealed!";
+}
+
