@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzle Fun Zone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Puzzle Fun Zone</h1>
+    <nav>
+      <ul>
+        <li><a href="#word-puzzles">Word Puzzles</a></li>
+        <li><a href="#logic-puzzles">Logic Puzzles</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="word-puzzles" class="puzzle-section">
+      <h2>Word Puzzles</h2>
+
+      <!-- Place in the code I'm messing with... -->
+<section id="word-builder" class="puzzle-section">
+  <h2>Word Builder</h2>
+  <div class="puzzle-card" id="word-builder-game">
+    <h3>Make words from: <span id="base-word">loading...</span></h3>
+
+    <input type="text" id="word-input" placeholder="Type your word..." />
+    <div class="buttons">
+      <button onclick="submitWord()">Submit</button>
+      <button onclick="loadNewWord()">New Word</button>
+    </div>
+
+    <p id="feedback"></p>
+
+    <h4>Your Words:</h4>
+    <ul id="word-list"></ul>
+
+    <p>Score: <span id="score">0</span></p>
+  </div>
+</section>
+
+
+<!-- Stop Messing Around Here -->
+
+      <div class="puzzle-card" onclick="startWordPuzzle()">
+        <h3>Word Search</h3>
+        <p>Find the hidden words!</p>
+      </div>
+    </section>
+
+    <section id="logic-puzzles" class="puzzle-section">
+      <h2>Logic Puzzles</h2>
+      <div class="puzzle-card" onclick="startLogicPuzzle()">
+        <h3>Sudoku</h3>
+        <p>Complete the grid!</p>
+        <p> Description here.</p>
+         <a href="https://playonlinesudoku.com/" class="project-link" target="_blank">View Project</a>
+      </div>
+      <div class="puzzle-card" onclick="startLogicPuzzle()">
+        <h3>Number Sequences</h3>
+        <p>Fill in the missing number!</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Puzzle Fun Zone. All Rights Reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
