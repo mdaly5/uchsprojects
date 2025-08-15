@@ -1,0 +1,77 @@
+[
+  {
+    "sentence": "The teacher tried to _____ the concept using a simple analogy.",
+    "correct": "clarify",
+    "choices": ["clarify", "complicate", "ignore", "conceal"]
+  },
+  {
+    "sentence": "Her _____ made her stand out as a compassionate leader.",
+    "correct": "empathy",
+    "choices": ["empathy", "arrogance", "impulsiveness", "confusion"]
+  },
+  {
+    "sentence": "They worked together to _____ a plan for the project.",
+    "correct": "formulate",
+    "choices": ["formulate", "abandon", "ignore", "delay"]
+  },
+  {
+    "sentence": "He delivered his speech with great _____ and passion.",
+    "correct": "emphasis",
+    "choices": ["emphasis", "hesitation", "silence", "doubt"]
+  },
+  {
+    "sentence": "The team showed _____ by refusing to give up.",
+    "correct": "tenacity",
+    "choices": ["tenacity", "laziness", "reluctance", "indecision"]
+  },
+  {
+    "sentence": "The abandoned warehouse appeared completely _____.",
+    "correct": "obsolete",
+    "choices": ["obsolete", "modern", "essential", "relevant"]
+  },
+  {
+    "sentence": "Despite setbacks, she remained _____ in her goals.",
+    "correct": "resolute",
+    "choices": ["resolute", "uncertain", "careless", "skeptical"]
+  },
+  {
+    "sentence": "A _____ is often used to represent deeper meaning in literature.",
+    "correct": "metaphor",
+    "choices": ["metaphor", "fact", "summary", "biography"]
+  },
+  {
+    "sentence": "The athlete’s _____ lifestyle helped her succeed.",
+    "correct": "disciplined",
+    "choices": ["disciplined", "reckless", "lazy", "erratic"]
+  },
+  {
+    "sentence": "Their _____ response to the emergency saved lives.",
+    "correct": "prompt",
+    "choices": ["prompt", "delayed", "careless", "confused"]
+  },
+  {
+    "sentence": "He was seen as a _____ due to his contradicting behavior.",
+    "correct": "hypocrite",
+    "choices": ["hypocrite", "leader", "ally", "advocate"]
+  },
+  {
+    "sentence": "The old law was declared _____ and replaced with new legislation.",
+    "correct": "obsolete",
+    "choices": ["obsolete", "effective", "vital", "recent"]
+  },
+  {
+    "sentence": "Her voice had a _____ tone that demanded attention.",
+    "correct": "commanding",
+    "choices": ["commanding", "timid", "indifferent", "quiet"]
+  },
+  {
+    "sentence": "The company sought a _____ idea to stand out from competitors.",
+    "correct": "novel",
+    "choices": ["novel", "dull", "familiar", "boring"]
+  },
+  {
+    "sentence": "He asked her to _____ her claim with evidence.",
+    "correct": "support",
+    "choices": ["support", "reject", "hide", "avoid"]
+  }
+]

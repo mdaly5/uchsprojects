@@ -23,13 +23,15 @@
       <h2>Word Puzzles</h2>
 
 
-
-      <!-- Place in the code I'm messing with... -->
+<!-- ?Word Builder Game -->
 <section id="word-builder" class="puzzle-section">
  
   <div class="puzzle-card" id="word-builder-game">
      <h2>Word Builder</h2>
     <h3>Make words from: <span id="base-word">loading...</span></h3>
+    <p id="shuffled-word" style="font-weight: bold; font-size: 1.2em; letter-spacing: 0.25em; font-family: monospace;"></p>
+    <button onclick="shuffleLetters()">Shuffle Letters</button>
+
     <p id="word-count">Loading word count...</p>
 
     <input type="text" id="word-input" placeholder="Type your word..." />
@@ -50,12 +52,17 @@
 </section>
 
 
-<!-- Stop Messing Around Here -->
+<!-- Fill in the Blank -->
+<div class="puzzle-card fill-in-blank" data-questions="/assets/questions.json">
+  <p class="fib-sentence"></p>
+  <input type="text" class="fib-answer" placeholder="Type the missing word" />
+  <button type="button" class="fib-check">Check</button>
+  <div class="fib-result"></div>
+  <button type="button" class="fib-next">Next</button>
+  <div class="fib-score"></div>
+</div>
 
-      <div class="puzzle-card" onclick="startWordPuzzle()">
-        <h3>Word Search</h3>
-        <p>Find the hidden words!</p>
-      </div>
+
     </section>
 
     <section id="logic-puzzles" class="puzzle-section">
